@@ -1,9 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
-
-
 export default function Home() {
-  return (
-    <h1 className='text-3xl    '></h1>
-  )
+  return <h1 className="text-3xl">Hello world</h1>;
 }
