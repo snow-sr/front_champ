@@ -1,13 +1,7 @@
 module.exports = {
-  content: [
-    "./pages/**/*.{js,jsx,md,mdx}",
-    "./components/**/*.{js,jsx,md,mdx}",
-    "./pages/*.{js,jsx,md,mdx}",
-    "./pages/index.js"
-  ],
+  content: ['./pages/**/*.{js,jsx}'],
   theme: {
     extend: {},
   },
-  mode: 'jit',
   plugins: [],
-}
+};
